@@ -22,8 +22,8 @@ project "EngineDM"
 	kind "SharedLib"
 	language "C++"
 
-	targetdir ("bin/" .. outputdir .. "/%prj.name}")
-	objdir ("obj/" .. outputdir .. "/%prj.name}")
+	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
+	objdir ("obj/" .. outputdir .. "/%{prj.name}")
 
 	pchheader "precom.h"
 	pchsource "EngineDM/src/precom.cpp"
@@ -82,8 +82,8 @@ project "Sandbox"
 	language "C++"
 
 
-	targetdir ("bin/" .. outputdir .. "/%prj.name}")
-	objdir ("obj/" .. outputdir .. "/%prj.name}")
+	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
+	objdir ("obj/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
