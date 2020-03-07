@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EngineDM">
+      <UniqueIdentifier>{AC33E534-9800-4040-C119-2EE8AD4575CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineDM\Events">
+      <UniqueIdentifier>{10865EC6-7C11-CC8A-8522-4F7FF12C288B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\EngineDM.h" />
+    <ClInclude Include="src\EngineDM\API.h">
+      <Filter>EngineDM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\Application.h">
+      <Filter>EngineDM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\EntryPoint.h">
+      <Filter>EngineDM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\Events\ApplicationEvent.h">
+      <Filter>EngineDM\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\Events\Event.h">
+      <Filter>EngineDM\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\Events\KeyEvent.h">
+      <Filter>EngineDM\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\Events\MouseEvent.h">
+      <Filter>EngineDM\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\Log.h">
+      <Filter>EngineDM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineDM\Window.h">
+      <Filter>EngineDM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\precom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\EngineDM\Application.cpp">
+      <Filter>EngineDM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineDM\Log.cpp">
+      <Filter>EngineDM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\precom.cpp" />
+  </ItemGroup>
+</Project>
